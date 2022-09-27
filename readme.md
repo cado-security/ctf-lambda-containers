@@ -1,9 +1,13 @@
 ## Cado Cloud Capture the Flag - Sep 2022
 
 Step 1 - Install the [Cado Community Edition](https://www.cadosecurity.com/cado-community-edition/)
+
 Step 2 - Download the files in the GitHub repository 
+
 Step 3 - Upload the files to the S3 bucket for your deployment (you can find the identifier in the AWS Console under CloudFormation - Stacks - *stack name* - Outputs - S3Bucket)
+
 Step 4 - Create 2  projects - named Lambda CTF and ECS CTF, 
+
 Step 5 - In each project click Import - Artifacts from S3 and import the following files into their respective projects
 
 ---
@@ -12,6 +16,7 @@ Step 5 - In each project click Import - Artifacts from S3 and import the followi
 |---------|------|
 | Lambda CTF | lambda-demo.zip |
 | ECS CTF |  ecs-ip100061uswest1computeinternal-165641308414671.zip |
+
 ---
 
 
